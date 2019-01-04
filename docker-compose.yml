@@ -5,7 +5,7 @@ services:
     ports:
       - "80:80"
         # https://docs.docker.com/compose/compose-file/#ports
-    volumes:
-      - ./web/default.conf:/etc/nginx/conf.d/default.conf
-      - ./data/html:/var/www/html
+    #volumes:
+    #- ./web/default.conf:/etc/nginx/conf.d/default.conf
+    #- ./data/html:/var/www/html
 
